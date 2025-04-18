@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/py3d.egg-info/PKG-INFO
+src/py3d.egg-info/SOURCES.txt
+src/py3d.egg-info/dependency_links.txt
+src/py3d.egg-info/not-zip-safe
+src/py3d.egg-info/top_level.txt
+src/pyd3/__init__.py
+src/pyd3/pyd3.py

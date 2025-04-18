@@ -7,6 +7,11 @@ setup(
     package_dir={"": "src"},
     python_requires=">=3.8",
     install_requires=[
-        # Add your dependencies here
+        "ipython>=8.0.0",
+        "jupyter>=1.0.0",
+        "notebook>=6.0.0",
+        "numpy>=1.20.0",
+        "pandas>=1.3.0",
+        "d3>=0.0.1"
     ],
 ) 

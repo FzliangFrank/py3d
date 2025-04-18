@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: py3d
+Version: 0.1.0
+Summary: Python template for visualizing complex network data using d3.js
+Author-email: Frank Liang <your.email@example.com>
+Project-URL: Homepage, https://github.com/yourusername/py3d
+Project-URL: Bug Tracker, https://github.com/yourusername/py3d/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+Dynamic: requires-python
+
+# py3d
+Python API for visualizing complex network data (and more) using d3.js
+
+## Installation
+
+You can install py3d using pip:
+
+```bash
+pip install py3d
+```
+
+For development installation:
+
+```bash
+git clone https://github.com/yourusername/py3d.git
+cd py3d
+pip install -e .
+```
+
+## Usage
+
+[Add usage instructions here]
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

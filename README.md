@@ -21,6 +21,24 @@ pip install -e .
 
 [Add usage instructions here]
 
+```py
+from pyd3 import *
+
+json_data = {
+        'nodes': [{'id': 0, 'name': 'A'}
+                , {'id': 1, 'name': 'B'}
+                , {'id': 2, 'name': 'C'}
+                ,{'id': 3, 'name': 'D'} ],
+        'links': [{'source': 0, 'target': 1}
+                , {'source': 1, 'target': 2}
+                , {'source': 1, 'target': 3}
+                , {'source':2, 'target': 3}]
+    }
+
+
+d3_force_graph(json_data)
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
